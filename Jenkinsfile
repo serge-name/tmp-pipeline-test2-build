@@ -7,8 +7,7 @@ pipeline {
     stage('build') {
       steps {
         sh 'pwd'
-        sh 'ls -l'
-        sh 'ls -l ..'
+        sh 'ls -lR ..'
 /*
         sh 'apt-get update'
         sh 'apt-get install -y gnupg'
