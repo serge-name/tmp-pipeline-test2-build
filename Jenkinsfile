@@ -6,6 +6,7 @@ pipeline {
   stages {
     stage('build') {
       steps {
+        sh 'pwd'
         sh 'ls -l'
         sh 'ls -l ..'
 /*
